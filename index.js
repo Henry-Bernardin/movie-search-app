@@ -9,7 +9,6 @@ const fetchData = async searchTerm => {
     console.log(response.data);
 }; 
 
-
 const input = document.querySelector('input'); 
 let timeoutId; 
 const onInput = event => {
