@@ -5,19 +5,19 @@ const fetchData = async searchTerm => {
             s: searchTerm
         }
     });
-
     console.log(response.data);
 }; 
 
 const input = document.querySelector('input'); 
+
 let timeoutId; 
 const onInput = event => {
     if (timeoutId) {
         clearTimeout(timeoutId);
     }
-    timeoutID = setTimeout(() => {
+    timeoutId = setTimeout(() => {
         fetchData(event.target.value);
-    }, 1000);
+    }, 500);
 }; 
 
 input.addEventListener('input', onInput);  
