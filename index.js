@@ -37,7 +37,7 @@ const onInput = async event => {
 
        option.classList.add('dropdown-item');
        option.innerHTML = `
-       <img src= "${movie.Poster}" />
+       <img src= "${imgSrc}" />
        ${movie.Title} 
        `;
 
