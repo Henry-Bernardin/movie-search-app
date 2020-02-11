@@ -47,14 +47,9 @@ const onInput = async event => {
        <img src= "${imgSrc}" />
        ${movie.Title} 
        `;
+       
 
        resultsWrapper.appendChild(option);
    }
 }; 
 input.addEventListener('input', debounce(onInput, 500));  
-
-document.addEventListener('click', event =>{
-    if (!root.contains(event.target)) {
-        dropdown.classList.remove('is-active');
-    };
-});
