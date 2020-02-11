@@ -5,9 +5,11 @@ const fetchData = async searchTerm => {
             s: searchTerm
         }
     });
+
     if (response.data.Error){
         return [];
     }
+
     return response.data.Search;
 }; 
 
@@ -20,7 +22,7 @@ root.innerHTML = `
             <div class="dropdown-content results"></div>
         </div>
     </div>
-`
+`;
 
 const input = document.querySelector('input'); 
 const dropdown = document.querySelector('.dropdown'); 
@@ -31,7 +33,7 @@ const onInput = async event => {
 
     resultsWrapper.innerHTML = ''; 
     dropdown.classList.add('is-active');
-   for(let movie of movies){
+   for (let movie of movies) {
        const option = document.createElement('a');
        const imgSrc = movie.Poster === 'N/A' ? '' : movie.Poster; 
 
