@@ -1,7 +1,7 @@
 const fetchData = async searchTerm => {
     const response = await axios.get('http://www.omdbapi.com/', {
         params: {
-            apikey: 'd3f44806', 
+            apikey: 'c0104d80', 
             s: searchTerm
         }
     });
@@ -30,11 +30,12 @@ const resultsWrapper = document.querySelector('.results');
 
 const onInput = async event => {
     const movies = await fetchData(event.target.value);
-
-    if (!movie.length) {
+    
+    if (!movies.length) {
         dropdown.classList.remove('is-active');
         return;
-    }
+}
+    
 
     resultsWrapper.innerHTML = ''; 
     dropdown.classList.add('is-active');
