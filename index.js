@@ -73,10 +73,10 @@ document.addEventListener('click', event => {
         }
     });
 
-    console.log(response.data); 
+   document.querySelector('#summary').innerHTML = movieTemplate(response.data);
 };
 
-const movieTemplate = (movieDetail) => {
+const movieTemplate = movieDetail => {
     return `
     <article class="media">
         <figure class="media-left">
