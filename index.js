@@ -108,7 +108,7 @@ const movieTemplate = movieDetail => {
         <p class="title">${movieDetail.BoxOffice}</p>
         <p class="subtitle">Box Office</p>
     </article>
-    <article class="notification is-primary>
+    <article data-value=${metascore} class="notification is-primary>
         <p class="title">${movieDetail.Metascore}</p>
         <p class="subtitle">Metascore</p>
     </article>
