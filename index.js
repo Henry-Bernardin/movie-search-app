@@ -82,8 +82,6 @@ const movieTemplate = movieDetail => {
         }
     }, 0);
 
-    console.log(imdbRating, imdbVotes, metascore, dollars);
-
     return `
     <article class="media">
         <figure class="media-left">
