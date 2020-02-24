@@ -64,7 +64,7 @@ createAutoComplete({
 };
 
 const runComparison = () => {
-    console.log('Time for comparison');
+    
 }
 
 const movieTemplate = movieDetail => {
