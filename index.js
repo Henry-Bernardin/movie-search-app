@@ -116,6 +116,9 @@ const movieTemplate = movieDetail => {
         <p class="title">${movieDetail.imdbRating}</p>
         <p class="subtitle">IMDB Rating</p>
     </article>
-    
+    <article data-value=${imdbVotes} class="notification is-primary>
+        <p class="title">${movieDetail.imdbVotes}</p>
+        <p class="subtitle">IMDB Votes</p>
+    </article>
     `;
 }; 
