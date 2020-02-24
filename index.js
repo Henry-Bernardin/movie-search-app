@@ -71,7 +71,7 @@ const movieTemplate = movieDetail => {
     const dollars = parseInt(movieDetail.BoxOffice(/\$/g, '').replace(/,/g, ''));
     const metascore = parseInt(movieDetail.Metascore);
     const imdbRating = parseFloat(movieDetail.imdbRating);
-    const imdbVotes = parseInt(movieDetail.imdbVotes);
+    const imdbVotes = parseInt(movieDetail.imdbVotes.replace(/,/g, ''));
 
     return `
     <article class="media">
