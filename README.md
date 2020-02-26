@@ -8,7 +8,7 @@
 
 ## Features 
 
-- Two fully functional Movie Search bars
+- Two fully functional movie search bars
 - Categories highlighted in green have "won"
 
 ## Tech Used / Dependencies
