@@ -33,7 +33,6 @@ const createAutoComplete = ({
        for (let item of items) {
            const option = document.createElement('a');
            
-    
            option.classList.add('dropdown-item');
            option.innerHTML = renderOption(item);
            option.addEventListener('click', () => {
