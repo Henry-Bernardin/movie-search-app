@@ -2,15 +2,14 @@
 
 ## Overview 
 
-
+"Movie Fight" project, in which two movies can be compared on various categories. 
 
 ### LIVE LINK: https://www.moviefight.dev/
 
 ## Features 
 
-- Responsive Design 
-- Fully functional Movie Search 
-- 
+- Two fully functional movie search bars
+- Categories highlighted in green have "won"
 
 ## Tech Used / Dependencies
 
@@ -18,3 +17,6 @@
 - Bulma 0.7.5
 - Ajax
 - Font Awesome 
+- HTML
+- CSS
+- Javascript 
