@@ -27,7 +27,6 @@ const createAutoComplete = ({
             return;
     }
         
-    
         resultsWrapper.innerHTML = ''; 
         dropdown.classList.add('is-active');
        for (let item of items) {
