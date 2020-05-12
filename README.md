@@ -1,4 +1,4 @@
-# Movie_Search_App
+# Movie-Search-App
 
 ## Overview 
 
