@@ -6,10 +6,21 @@
 
 ### LIVE LINK: https://www.moviefight.dev/
 
+## How To Play
+
+- Search for a film on each side of the movie finder
+- Following categories will be compared for both films: 
+    *Number of nominations
+    *Amount made within the Box Office
+    *Metascore
+    *IMDB Rating
+    *IMDB Votes
+
 ## Features 
 
 - Two fully functional movie search bars
 - Categories highlighted in green have "won"
+- Categories highlighted in yellow have "lost" 
 
 ## Tech Used / Dependencies
 
