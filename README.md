@@ -4,7 +4,7 @@
 
 "Movie Fight" project, in which two movies can be compared on various categories. 
 
-### LIVE LINK: https://www.moviefight.dev/
+### LIVE LINK: https://adoring-tereshkova-70f3ff.netlify.app
 
 ## How To Play
 
